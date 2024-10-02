@@ -1,0 +1,67 @@
+/* Gemensamma stilar för divar */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+/* Top-diven */
+#top {
+    border: 3px solid red;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* H1-rubrik */
+h1 {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.blå-bakgrund{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+/* Länkstilar */
+a {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/* Flexbox för rubrik */
+#mellan {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Stilar för divarna mellan_h och mellan_v */
+#mellan_h, #mellan_v {
+    width: 49%;
+    min-width: 49%;
+    border: 2px solid black;
+}
+
+#mellan_h {
+    background-color: yellow;
+}
+
+#mellan_v {
+    background-color: pink;
+}
+
+/* Botten-div */
+#botten {
+    border: 2px solid yellow;
+}
